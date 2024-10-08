@@ -1,0 +1,167 @@
+/* apply the css code for portfolio part of start wab. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* port nav css code */
+.port1{
+    width: 1440px;
+    height: 123px;
+    background-color: #74C69D;
+    display: flex;
+}
+.portnav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction:row ;
+}
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 15%;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    line-height: 125%;
+    font-weight: 350;
+    position: relative;
+    left: 245%;
+}
+.slogo{
+    font-family: 'Work Sans';
+    line-height: 16px;
+    font-weight:500;
+    color: #FFFFFF;
+    font-size: 40px;
+    position: relative;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+svg{
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 40%;
+    left: 125%;
+}
+/* works css code*/
+.works {
+   width: 411px;
+   height: 162px;
+   /* border: 1px solid black ; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   left: 35%;
+   margin: 2.8%;
+
+
+}
+.wo1{
+    color: #74C69D;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 125%;
+    position: relative;
+    top: -14px;
+    letter-spacing: 5px;
+}
+.wo2{
+    color: #000000;
+    font-family: 'Crimson Text';
+    font-size: 40px;
+    line-height: 125%;
+    position: relative;
+    top: 4px;
+}
+.para1{
+    color:#000000;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    line-height: 175%;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 6%;
+}
+/* cartifiy css code */
+.cartifiy{
+    width: 1187px;
+    height: 1567px;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    column-gap: 55px;
+    row-gap: 55px;
+}
+.item2{
+    border: 2px solid #1a1a1a;
+    border-radius: 5px ;
+}
+.item3{
+    border: 2px solid #1a1a1a;
+    border-radius: 5px ;
+}
+.item8{
+    width: 562px;
+    height: 336px;
+}
+ .btn{
+    background-color: #212529;
+    color: #FFFFFF;
+    width: 170px;
+    height: 48px;
+    line-height: 125%;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    text-align: center;
+    position: relative;
+    left: 47%;
+    margin-top: 6%;
+    border-radius: 7px;
+    margin-bottom: 7%;
+    border: #212529;
+    cursor: pointer;
+}
+/* footer css code */
+.send{
+    width: 1440px;
+    height: 125px;
+    background-color: #74C69D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 43%;
+}
+.copyrights{
+    color: #FFFFFF;
+    line-height: 125%;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    
+}
